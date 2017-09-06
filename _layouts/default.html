@@ -38,6 +38,7 @@
 
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/font-awesome.min.css' | relative_url }}">
   </head>
   <body>
 
@@ -56,20 +57,26 @@
     <section class="page-header">
       <h1 class="project-name">{{ page-title }}</h1>
       <h2 class="project-tagline">{{ page-tagline }}</h2>
-      
+
       <!-- Tag Buttons -->
-      {% for tag in site.tags %}
-      {% assign t = tag | first %}
-          <a href="/{{ site.tag_page_dir }}/{{ t | slugify: 'pretty' }}/" class="btn">{{ t }}</a>
-      {% endfor %}
+      {% if page.layout == 'home' %}
+        {% for tag in site.tags %}
+        {% assign t = tag | first %}
+            <a href="/{{ site.tag_page_dir }}/{{ t | slugify: 'pretty' }}/" class="btn">{{ t }}</a>
+        {% endfor %}
+      {% endif %}
 
       <!-- Post tagline -->
       {% if page.layout == 'post' %}
         <h2 class="project-date">
+        <span>
         <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
           {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-          {{ page.date | date: date_format }}
+          <i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: date_format }}
         </time>
+        <span> - </span>
+        <i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.read_time }}
+        </span>
         {% assign page_author = page.author | default: site.author | default: nil | escape %}
         {% if page_author %}
           • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page_author }}</span></span>

@@ -39,7 +39,7 @@ a {
   text-decoration: none;
 
   &:hover {
-    text-decoration: underline;
+    text-decoration: none;
   }
 }
 
@@ -53,12 +53,14 @@ a {
   border-width: 1px;
   border-radius: 0.3rem;
   transition: color 0.2s, background-color 0.2s, border-color 0.2s;
+  text-decoration: none;
 
   &:hover {
     color: rgba(255, 255, 255, 0.8);
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.2);
     border-color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
   }
 
   + .btn {
@@ -194,8 +196,8 @@ a {
   h4,
   h5,
   h6 {
-    margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
     font-weight: normal;
     color: $section-headings-color;
   }
