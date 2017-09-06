@@ -1,3 +1,4 @@
 theme:
 gems:
  - jekyll-feed
+ - jekyll/tagging
