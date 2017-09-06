@@ -3,3 +3,5 @@ gems:
  - jekyll-feed
  - jekyll/tagging
 show_downloads: false
+tag_page_layout: tag
+tag_page_dir: blog/tags
