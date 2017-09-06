@@ -2,3 +2,4 @@ theme:
 gems:
  - jekyll-feed
  - jekyll/tagging
+show_downloads: false
