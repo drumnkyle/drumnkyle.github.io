@@ -62,7 +62,7 @@
       {% if page.layout == 'home' %}
         {% for tag in site.tags %}
         {% assign t = tag | first %}
-            <a href="/{{ site.tag_page_dir }}/{{ t | slugify: 'pretty' }}/" class="btn">{{ t }}</a>
+            <a href="/{{ site.tag_page_dir }}/{{ t | slugify: 'pretty' }}" class="btn">{{ t }}</a>
         {% endfor %}
       {% endif %}
 

@@ -1,8 +1,3 @@
 theme:
-plugins_dir: ./_plugins
-plugins:
- - jekyll-feed
- - jekyll/tagging
 show_downloads: false
-tag_page_layout: tag
-tag_page_dir: blog/tags
+tag_page_dir: tags
