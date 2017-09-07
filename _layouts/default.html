@@ -75,7 +75,7 @@
           <i class="fa fa-calendar" aria-hidden="true"></i> {{ page.date | date: date_format }}
         </time>
         <span> - </span>
-        <i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.read_time }}
+        <i class="fa fa-clock-o" aria-hidden="true"></i> {{ page.content | ksreadtime }}
         </span>
         {% assign page_author = page.author | default: site.author | default: nil | escape %}
         {% if page_author %}

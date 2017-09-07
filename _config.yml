@@ -1,5 +1,6 @@
 theme:
-gems:
+plugins_dir: ./_plugins
+plugins:
  - jekyll-feed
  - jekyll/tagging
 show_downloads: false
