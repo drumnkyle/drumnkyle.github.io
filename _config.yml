@@ -1,1 +1,4 @@
-theme: jekyll-theme-cayman
+theme:
+show_downloads: false
+tag_page_dir: tags
+permalink: /posts/:title.html

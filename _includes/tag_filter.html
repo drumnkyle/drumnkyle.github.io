@@ -1,0 +1,4 @@
+{% assign posts = site.tags[tag_key] %}
+{% for post in posts %}
+  {% include post_preview.html %}
+{% endfor %}

@@ -1,0 +1,17 @@
+---
+layout: default
+---
+
+<div>
+
+  {{ content }}
+
+  <h2>Latest Posts</h2>
+
+  <div>&nbsp;</div>
+  
+  {% for post in site.posts %}
+    {% include post_preview.html %}
+  {% endfor %}
+
+</div>
