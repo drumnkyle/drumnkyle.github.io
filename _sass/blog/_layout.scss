@@ -135,12 +135,12 @@
   font-size: $small-font-size;
   color: $grey-color;
   display: block;
-  margin-top: 0.5rem;
+  margin-top: 0.2rem;
   margin-bottom: 0.5rem;
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
-  line-height: 0.8;
+  line-height: 1.2;
 }
