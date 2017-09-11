@@ -144,3 +144,11 @@
   @include relative-font-size(1.5);
   line-height: 1.2;
 }
+
+.post-title {
+    color: black;
+    @include relative-font-size(3);
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: 600;
+}
