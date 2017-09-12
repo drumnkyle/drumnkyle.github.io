@@ -8,6 +8,8 @@ $small-font-size:  $base-font-size * 0.875 !default;
 $base-line-height: 1.5 !default;
 
 $spacing-unit:     30px !default;
+$main-padding-horizontal: 6rem !default;
+$main-max-width: 64rem !default;
 
 $text-color:       $section-headings-color !default;
 $background-color: #fdfdfd !default;
@@ -24,6 +26,13 @@ $navbar-width:    54em !default;
 $on-palm:          38em !default;
 $on-laptop:        54em !default;
 
+// form
+$line-height: 44px;
+$primary-color: $section-headings-color;
+$form-padding: 40px;
+$subtle-color: $grey-color;
+$bad-color: #FF4136;
+
 // Use media queries like this:
 // @include media-query($on-palm) {
 //   .wrapper {
@@ -39,6 +48,24 @@ $on-laptop:        54em !default;
 
 @mixin relative-font-size($ratio) {
   font-size: $base-font-size * $ratio;
+}
+
+@mixin large {
+  @media screen and (min-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin medium {
+  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
+    @content;
+  }
+}
+
+@mixin small {
+  @media screen and (max-width: #{$medium-breakpoint}) {
+    @content;
+  }
 }
 
 // Import partials.

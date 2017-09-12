@@ -1,6 +1,10 @@
 theme:
+title: Kyle's Advice
 show_downloads: false
 tag_page_dir: tags
 permalink: /posts/:title.html
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+twitter:
+  username: drumnkyle

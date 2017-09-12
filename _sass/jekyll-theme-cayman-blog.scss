@@ -3,24 +3,6 @@
 @import "variables";
 @import "blog";
 
-@mixin large {
-  @media screen and (min-width: #{$large-breakpoint}) {
-    @content;
-  }
-}
-
-@mixin medium {
-  @media screen and (min-width: #{$medium-breakpoint}) and (max-width: #{$large-breakpoint}) {
-    @content;
-  }
-}
-
-@mixin small {
-  @media screen and (max-width: #{$medium-breakpoint}) {
-    @content;
-  }
-}
-
 * {
   box-sizing: border-box;
 }
@@ -170,8 +152,8 @@ a {
   }
 
   @include large {
-    max-width: 64rem;
-    padding: 3rem 6rem;
+    max-width: $main-max-width;
+    padding: 3rem $main-padding-horizontal;
     margin: 0 auto;
     font-size: 1.1rem;
   }
@@ -188,6 +170,10 @@ a {
 
   img {
     max-width: 100%;
+  }
+
+  a.link-header {
+    color: $section-headings-color;
   }
 
   h1,
@@ -342,7 +328,7 @@ a {
 .site-footer {
   padding-top: 2rem;
   margin-top: 2rem;
-  
+
   @include large {
     font-size: 1rem;
   }
@@ -432,4 +418,85 @@ a {
 
   } // social-icons
 
+}
+
+/***************
+FORM STYLING
+***************/
+
+label {
+	display:block;
+	margin-bottom:5px;
+}
+input[type=text],input[type=email],input[type=phone],input[type=password],input[type=number],input[type=search], textarea {
+	background: darken(white, 10%);
+	padding:5px;
+	outline:none;
+	border: none;
+	height: $line-height;
+	width:300px;
+	margin-bottom: .5rem;
+
+	&:focus {
+		border: 1px solid $primary-color;
+	}
+
+	&.full-width {
+		width:100%;
+	}
+}
+textarea {
+	height:$line-height*3;
+}
+
+form {
+	margin-bottom:$form-padding;
+
+	// Wrap each form input/element in a field div
+	.field {
+		margin-bottom:$form-padding/2;
+	}
+
+	// Notes go under the input fields
+	.note {
+		margin-top:5px;
+		color:$subtle-color;
+	}
+
+	// Required label
+	.req {
+		font-style: italic;
+	}
+
+	// Validation, add error class to the item div
+	.error {
+
+		// Validation reason
+		.reason {
+			margin-top:5px;
+			color:$bad-color;
+		}
+
+		input[type=text],input[type=email],input[type=phone],input[type=password],input[type=number],input[type=search], textarea{
+			border-color:$bad-color;
+		}
+	}
+}
+
+.button, .button-secondary, .button-tertiary, .button__outline {
+  background-color: $primary-color;
+  display: inline-block;
+  position: relative;
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 1em;
+  line-height: 1.2em;
+  font-weight: normal;
+  padding: .5em 1.5em;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: .5em;
+  transition: background-color 0.14s ease-in-out;
 }
