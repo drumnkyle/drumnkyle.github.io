@@ -1,5 +1,6 @@
 theme:
 title: This is Kyle
+description: Kyle Sherman's Writing
 show_downloads: false
 tag_page_dir: tags
 permalink: /posts/:title.html
