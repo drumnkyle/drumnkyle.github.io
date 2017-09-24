@@ -1,17 +1,5 @@
 ---
-#
-# Here you can change the text shown in the Home page before the Latest Posts section.
-#
-# Edit cayman-blog's home layout in _layouts instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#
 layout: home
 ---
 
-Cayman Blog Theme is a clean, responsive blogging theme for Jekyll, with social features. It is inspired by the Cayman Theme for Github Pages, which can be greatly used for single projects but not as blogging platform.
-
-This theme has instead all you need to start today blogging with Jekyll, and no effort: pages, posts, few social buttons. Try loading this on mobile too.
-
-Have a look at the Github page for more information.
-
-You find this descriptive text in the `index.md` file, so you can change it, or remove it completely, according to your needs.
+My name is Kyle Sherman. Please visit the [About]({{ site.baseurl }}{% link about.md %}) page for more information about me. I write about all of the topics that are the interests and passions that make up who I am. You will see the categories listed above. Feel free to tap on any of the categories to see a list of all posts in that category. All of the articles I have are also listed under the [Blog]({{ site.baseurl }}{% link blog.html %}) page. I hope you enjoy the content. Please feel free to reach out to me with any questions or comments using the information on [Contact]({{ site.baseurl }}{% link contact.md %}) page. 
