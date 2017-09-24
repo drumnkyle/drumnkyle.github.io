@@ -3,6 +3,8 @@ layout: page
 title: Contact
 tagline: 
 ---
+To contact me, feel free to reach out to me on [Twitter](www.twitter.com/drumnkyle "Kyle Sherman's Twitter"). You can also email me through this contact form if you have any questions.
+
 <div id="contact">
   <form action="http://formspree.io/kyledsherman@gmail.com" method="POST">
     <label for="name">Name</label>
