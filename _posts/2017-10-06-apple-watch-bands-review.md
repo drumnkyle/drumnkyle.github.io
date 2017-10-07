@@ -21,6 +21,7 @@ I will detail my thoughts as an easy Pros and Cons list for each band. These are
 - Doesn't pull arm hair at all
 - It is comfortable when resting my wrist on a surface. I tested this while using a mouse with a wrist pad at work throughout the day.
 - It looks very nice.
+
 ### Cons
 - Sits above the wrist and moves back and forth slightly with my arm movement
 - The slight movement can feel like a tap from the Taptic Engine™.
@@ -36,6 +37,7 @@ I will detail my thoughts as an easy Pros and Cons list for each band. These are
 - It doesn't come apart in two pieces like most bands, therefore you are not likely to drop the watch while trying to put it on.
 - It is the most adjustable of the bands available.
 - The heart rate sensor seems to work fine with this band on.
+
 ### Cons
 - Some people who thought it looked great from photos on Apple's website, thought it didn't look quite as nice or fancy in person.
 - It would look nicer if it were a bit wider. This is the case especially with the 38mm version.
@@ -54,6 +56,7 @@ I will detail my thoughts as an easy Pros and Cons list for each band. These are
 - Very smooth and light
 - Can put it on the same setting every time I wear it.
 - Not as much messing with the size, which is helpful if you have a little OCD.
+
 ### Cons
 - It can pull your arm hair a little (sometimes).
 - Not as adjustable as other options.
