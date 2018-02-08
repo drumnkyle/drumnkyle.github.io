@@ -101,5 +101,4 @@ I ended up purchasing the Icon, the Icon Slim, and the City. I thought I would l
 Good luck in your search!
 
 ## Update After Purchase
-I have been using the Incase Icon Backpack for quite a while now. I am still very happy with my purchase. There is one downside I wanted to point out. Even though there is a good amount of space and pockets, it is difficult to fit bulkier items like a jacket or other clothes.
-
+I have been using the Incase Icon Backpack for quite a while now. I am still very happy with my purchase. There is one downside I wanted to point out. Even though there is a good amount of space and pockets, it is difficult to fit bulkier items like a jacket or other clothes. However, if you unzip all the way it is able to fit much more easily and is not too much of an issue for me. 
