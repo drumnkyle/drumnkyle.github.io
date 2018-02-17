@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Working All Day Hurts; Should I Go to a Doctor
+title: Working All Day Hurts; Should I Go to a Doctor?
 date: 2018-02-16
 tags: 
     - Ergonomics
