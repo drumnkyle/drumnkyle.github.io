@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Measuring iOS Scroll Performance Is Tough. Use This to Make It Simple & Automated
+title: Measuring iOS scroll performance is tough. Use this to make it simple & automated
 date: 2018-08-28
 tags: 
     - Software Development
