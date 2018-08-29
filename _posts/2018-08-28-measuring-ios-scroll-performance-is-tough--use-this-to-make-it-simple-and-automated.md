@@ -21,7 +21,7 @@ I came up with two metrics that should never exceed a certain threshold. These t
 A large number of frames dropped at a single instant will cause a very noticeable stop in the fluidity of the interface. Too many frame drop events during one scroll will make it seem like the whole scroll event is sluggish even if the number of frames dropped at a time is small. These limits can change based on expectations of scroll performance and the type of views being measured. 
 
 ## Frame Rate Reporter
-Below you will see the code for the class that monitors the frame rate and communicates it back to your code. The code hooks into `CADisplayLink` in order to do this. Using the duration of a frame, we compare the current and previous timestamps and divide by the duration to get the number of frames. Using this information, we can calculate how many frames were dropped. We also keep a running count of how many frames were dropped. These values can be reset at any time.
+Below you will see the code for the class that monitors the frame rate and communicates it back to your code. Don’t be afraid of all the Objective-C code in this article. Everything can be used from Swift. The code hooks into `CADisplayLink` in order to do this. Using the duration of a frame, we compare the current and previous timestamps and divide by the duration to get the number of frames. Using this information, we can calculate how many frames were dropped. We also keep a running count of how many frames were dropped. These values can be reset at any time.
 
 <script src="https://gist.github.com/drumnkyle/89180f310d705df75647e45dc5f8fd59.js"></script>
 
