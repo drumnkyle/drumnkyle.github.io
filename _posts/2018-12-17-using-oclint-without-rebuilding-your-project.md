@@ -31,7 +31,9 @@ This didn't work at all. However, I quickly found that it was because the [line 
 
 ### OCLint Error
 When I tried to finally run this file using the `oclint-json-compilation-database` command, it failed with the following error: 
+
 > oclint: error: one compiler command contains multiple jobs
+
 I googled this error and found [this issue on the OCLint Github.](https://github.com/oclint/oclint/issues/462)I tried setting `COMPILER_INDEX_STORE_ENABLE` to `NO` as was suggested. This worked, but when I looked into what this flag did, it would not be great for the developer experience when using Swift; this disabled indexing while building. 
 
 So, I diffed the JSON file with the flag on and off to see what the differences were. I found the following line was present when the flag was not set to `YES`:
