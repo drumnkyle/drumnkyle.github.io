@@ -5,7 +5,9 @@ tagline: Learn more about Kyle Sherman
 permalink: /about.html
 ---
 
-My name is Kyle Sherman. I have a variety of passions. My site will be a place where I will write different posts relating to each of these different topics. Here is a little bit about me as it relates to each of the topics about which I will write. 
+My name is Kyle Sherman. I have a variety of passions. My site will be a place where I will write different posts relating to each of these different topics. Here is a little bit about me as it relates to each of the topics about which I will write.
+
+You can also check out my new app called [Count It Off](https://countitoff.com) now available [on the App Store](https://itunes.apple.com/app/apple-store/id1439712286?pt=118826831&ct=Kyle-Blog&mt=8).
 
 ## Ergonomics
 I am very focused on health and wellness. My father is a chiropractor, so I have learned about posture and proper ergonomics throughout my life. During my professional career, I have met with numerous Ergonomists to learn more and ensure that I was working safely. I tend to get migraines and find that improper posture is one cause. I hope to help everyone learn more about proper ergonomics and why it’s so important, especially for people working on a computer for the majority of their day. 
